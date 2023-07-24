@@ -33,3 +33,32 @@
 .calculater{
     box-shadow: 0px -8px 17px 5px black;
 }
+
+/* Responsive */
+
+
+@media screen and (max-width:700px){
+    
+    body{
+        background: #000;
+    }
+    .calculater{
+        background-color: #a19292;
+        height: 500px;
+        width: 400px;
+        text-align: center;
+        margin-left: 500px;
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:1400px){
+    .calculater{
+        background-color: #a19292;
+        height: 500px;
+        width: 400px;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+}
+
